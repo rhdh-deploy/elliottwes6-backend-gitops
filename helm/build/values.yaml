@@ -1,0 +1,15 @@
+app:
+  name: elliottwes6-poi-backend-app
+  namespace: elliottwes6
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/elliottwes6-backend
+  org: rhdh-deploy
+  name: elliottwes6-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: elliottwes6/poi-backend-app
+  tag: latest
